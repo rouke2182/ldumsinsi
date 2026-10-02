@@ -1,3 +1,6 @@
+/*made by waterlillie #113177. i would not recommend copying at all, the code is BAD.
+this is my first attempt at css, it looks good on my screen and whatever i can't see, can't hurt me.*/
+
 /*background*/
 body {
 background-image: url("https://static.lioden.com/images/dynamic/backgrounds/Magaliesbierg.png");
@@ -64,8 +67,15 @@ color: #4a3316}
 
 /*hmu with that energy boost*/
 .small input {
-background: #b5ac56;
-color: #676230}
+background: #E0B686;
+color: #713f2b;
+border: none}
+.small input:hover {
+background: #F0CB90;
+color: #6D3A35;
+text-shadow: none;
+border: none}
+
 
 /*progress bars*/
 .progress div {
@@ -88,10 +98,17 @@ background: rgba(220,203,182,0.7)}
 
 /*home-bookmark(hidden)*/
 .breadcrumb, .breadcrumb > li > a {
-display: none}
+background: #d0bf8b;
+color: #8b7e56}
+.active {
+color: #8b7e56 !important}
 input.floatright, input.floatright:hover {
 display:none}
-
+.breadcrumb::after {
+content: "css by waterlillie (#113177)";
+color: #8b7e56 !important;
+position: absolute;
+right: 4%;}
 /*lt's den(hidden)*/
 h1 {
 color: #000000;
@@ -151,9 +168,9 @@ color: #575E2C;
 text-shadow: none}
 /*small images*/
 .xlarge img {
-content: url('https://imgur.com/k8y1yeG.png') !important;
-max-width: 28px !important;
-height: auto !important}
+content: url('https://imgur.com/k8y1yeG.png');
+max-width: 28px;
+height: auto}
 
 /*caves*/
 .cave-grid {
@@ -167,16 +184,16 @@ color: #5e5a2d}
 /*cave images*/
 a[href$="105467"]>div.cave-grid>img {
 content: url("https://static.lioden.com/images/dynamic/backgrounds/Magaliesbierg.png")!important;
-width: 258px !important;
-height: 140px !important;}
+width: 258px;
+height: 140px}
 a[href$="105482"]>div.cave-grid>img {
 content: url('https://static.lioden.com/images/dynamic/backgrounds/thepassage.png')!important; 
-width: 258px !important;
-height: 140px !important;}
+width: 258px;
+height: 140px}
 a[href$="34108"]>div.cave-grid>img {
 content: url('https://static.lioden.com/images/dynamic/backgrounds/Bou-Hedma_National_Park.png')!important;
-width: 258px !important;
-height: 140px !important;}
+width: 258px;
+height: 140px}
 
 /*smaller cave images*/
 div.cave-grid>img[src$="nestingbanner.png"] {
@@ -240,13 +257,7 @@ background: #EDD6B5;
 color: #584c3b}
 #reclaim .right, #reclaim .bottom {
 background: #ecd7b9;}
-.right.center input {
-background: #dbc19b;
-color: #645039;
-border: none}
-.right.center input:hover {
-color: #827344;
-text-shadow: none}
+
 
 /*sparring tab*/
 #sparring th {
@@ -255,14 +266,7 @@ color: #4b4a22}
 #sparring td {
 background: #EDD6B5;
 color: #51432e}
-.right_odd input {
-background: #dbc19b;
-color: #645039;
-border-color: #dbc19b}
-.right_odd input:hover {
-background: #dbc19b;
-color: #605227;
-text-shadow: none}
+
 
 /*dynasty etc*/
 .dynastylist .left {
@@ -273,17 +277,21 @@ a:hover > .left h3 {
 color: #75713B}
 
 a[href$="dynasty.php?mid=113177"] img {
-content: url('https://static.lioden.com/images/dynamic/backgrounds/AbijattaShallaNationalPark.png');
-max-height: 50px;
-min-width: 240px}
+content: url('https://imgur.com/RpSOhlC.png');
+min-width: 240px;
+max-height: 50px;}
 a[href$="former_pride.php?mid=113177"] img {
-content: url('https://static.lioden.com/images/dynamic/backgrounds/AbijattaShallaNationalPark.png');
+content: url('https://imgur.com/Uw56v7O.png');
 max-height: 50px;
 min-width: 240px}
 a[href$="achievements.php?id=113177"] img {
-content: url('https://static.lioden.com/images/dynamic/backgrounds/AbijattaShallaNationalPark.png');
+content: url('');
 max-height: 50px;
 min-width: 240px}
+.left img {
+min-height: 60px !important;
+max-width: 260px !important;
+margin: -6px 0px 2px !important}
 
 /*view logs*/
 .col-sm-4 .left {
