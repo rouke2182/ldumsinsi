@@ -115,6 +115,20 @@ color: #000000;
 text-align: left;
 font-size: 0px}
 
+/*table box*/
+#fraProfileContent th {
+background: #909560;
+color: #4b4e30}
+#fraProfileContent a {
+color: #4b4e30 !important;
+border-color: #E7DDC5 !important}
+#fraProfileContent a:hover {
+color: #403f18 !important}
+#fraProfileContent td {
+background: #E7DDC5;}
+#fraProfileContent .table {
+border-color: #B5AC56}
+
 /*table top*/
 .top.center {
 background: #918f44;
@@ -276,7 +290,7 @@ color: #53482c}
 a:hover > .left h3 {
 color: #75713B}
 
-/*a[href$="dynasty.php?mid=113177"] img {
+a[href$="dynasty.php?mid=113177"] img {
 content: url('https://imgur.com/RpSOhlC.png');
 min-width: 240px;
 max-height: 50px;}
@@ -287,7 +301,7 @@ min-width: 240px}
 a[href$="achievements.php?id=113177"] img {
 content: url('');
 max-height: 50px;
-min-width: 240px}*/
+min-width: 240px}
 .left img {
 min-height: 60px !important;
 max-width: 260px !important;
@@ -350,3 +364,6 @@ color: #644e2c}
 color: #644e2c}
 .alert-danger a:hover {
 color: #4b3a20}
+
+<table class="table"><tr><th><a href="linkhere">Main</a> : Side </th></tr>
+<tr><td>test test</td></tr></table>
