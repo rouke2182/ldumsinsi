@@ -276,7 +276,7 @@ color: #53482c}
 a:hover > .left h3 {
 color: #75713B}
 
-a[href$="dynasty.php?mid=113177"] img {
+/*a[href$="dynasty.php?mid=113177"] img {
 content: url('https://imgur.com/RpSOhlC.png');
 min-width: 240px;
 max-height: 50px;}
@@ -287,7 +287,7 @@ min-width: 240px}
 a[href$="achievements.php?id=113177"] img {
 content: url('');
 max-height: 50px;
-min-width: 240px}
+min-width: 240px}*/
 .left img {
 min-height: 60px !important;
 max-width: 260px !important;
