@@ -1,0 +1,348 @@
+/*background*/
+body {
+background-image: url("https://static.lioden.com/images/dynamic/backgrounds/Magaliesbierg.png");
+background-repeat: no-repeat;}
+
+/*topbar, welcome back*/
+.topbar {
+background: #b4a371;
+color: #736741;}
+
+/*topbar links*/
+.topbar a:link, .topbar a:visited {
+ color: #736741;}
+
+/*link hover and click*/
+.topbar a:hover, .topbar a:active {
+ color: #5e5430;}
+
+/*navbar*/
+.navbar {
+background: #b5ac56;}
+
+/*navbar links*/
+.navbar-default .navbar-nav > li > a:link, .navbar-default .navbar-nav > li > a:visited {
+color: #676230}
+.navbar-default .navbar-nav > li > a:hover {
+background: #afa655;
+color: #5b572b}
+.navbar-default .navbar-nav > li > a:active {
+color: #504c23}
+
+/*logo*/
+.navbar-brand img {
+content: url('https://imgur.com/twhQp5x.png')}
+.navbar-brand img {
+position: relative;
+top:-16px;
+left: -15px}
+
+/*sidebar background*/
+.container.main {
+background: rgba(230,214,194,0.9)}
+
+.panel-default, .panel-body {
+color: #6b5842 !important}
+
+/*inner boxes of sidebar*/
+.col-md-3 .panel {
+background: #c4a88a;
+border: none;
+box-shadow: none;}
+
+/*sidebar links*/
+.sidebar a:link, .sidebar a:visited {
+color: #6b5842}
+.sidebar, .sidebar a:active {
+color: #543c1e !important}
+.sidebar a, .panel-default a, .small .center a {
+color: #6b5842}
+.sidebar h3 { 
+color: #6b5842 !important}
+.sidebar a:hover, .sidebar h3:hover {
+color: #4a3316}
+
+/*hmu with that energy boost*/
+.small input {
+background: #b5ac56;
+color: #676230}
+
+/*progress bars*/
+.progress div {
+color: #454218}
+.progress-bar  {
+background: #918F44;}
+.progress-bar-success {
+background: #B5AC56;}
+.progress-bar-danger {
+background: #b9a360;}
+.progress-bar-warning {
+background: #D5AE72;}
+/*inner progress bars*/
+.col-xs-6 .progress, .center .progress {
+background: #EFE0C1}
+
+/*mainpage background*/
+.col-md-9 {
+background: rgba(220,203,182,0.7)}
+
+/*home-bookmark(hidden)*/
+.breadcrumb, .breadcrumb > li > a {
+display: none}
+input.floatright, input.floatright:hover {
+display:none}
+
+/*lt's den(hidden)*/
+h1 {
+color: #000000;
+text-align: left;
+font-size: 0px}
+
+/*table top*/
+.top.center {
+background: #918f44;
+color: #52511d} 
+#about .top.center a {
+color: #52511d}
+#about .top.center a:hover {
+color: #47461a}
+
+/*table background*/
+#about .right > .right, #about .right > td {
+background: #dbc7af}
+#about .right > td {
+background: #d8c4ab}
+
+/*table inner tables*/
+#about .left {
+background: #c4af90;
+color: #554633}
+/*table inner subtitles*/
+#about .inner-table .right {
+background: #e7ddc5;
+color: #7c7841}
+.right.small a, .inner-table a {
+color: #848048}
+.right.small a:hover, .inner-table a:hover {
+color: #666332}
+#about .bottom {
+background: #c1aa63}
+.bottom a:visited, .bottom a {
+text-decoration: none !important}
+#about .bottom a {
+color: #716438}
+.bottom a:hover {
+color: #5e5126 !important}
+
+/*lt's player-id*/
+#player .top {
+background: #86A9C0;
+color: #3b5566 }
+#player .right > .right {
+background: #EDD6B5;
+color: #57743a}
+/*dividing line*/
+hr {
+border: none}
+.center.xlarge a, .xlarge .text-muted {
+color: #618242}
+.center.xlarge a:hover {
+color: #575E2C;
+text-shadow: none}
+/*small images*/
+.xlarge img {
+content: url('https://imgur.com/k8y1yeG.png');
+max-width: 28px;
+height: auto}
+.h3 img {
+content: url('https://imgur.com/fxg4MG9.png');
+max-height: 90px;
+max-width: 90px}
+
+/*caves*/
+.cave-grid {
+background: #c4a88a;
+color: #554129}
+a:hover > .cave-grid {
+color: #666332}
+a:active > .cave-grid {
+color: #5e5a2d}
+
+/*cave images*/
+a[href$="105467"]>div.cave-grid>img {
+content: url("https://static.lioden.com/images/dynamic/backgrounds/Magaliesbierg.png")!important;
+width: 258px !important;
+height: 140px !important;}
+a[href$="105482"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/thepassage.png')!important; 
+width: 258px !important;
+height: 140px !important;}
+a[href$="34108"]>div.cave-grid>img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/Bou-Hedma_National_Park.png')!important;
+width: 258px !important;
+height: 140px !important;}
+
+/*smaller cave images*/
+div.cave-grid>img[src$="nestingbanner.png"] {
+content: url('https://imgur.com/u2lF0v6.png')!important;
+
+min-width: 258px;
+max-height: 75px}
+a[href$="unsorted.php?id=113177"]>div.cave-grid>img{
+content: url('https://imgur.com/mhZOPY7.png')!important;
+
+width: 258px;
+height: 75px;}
+a[href*="lionoverview.php?id=113177"]>div.cave-grid>img {
+content: url('https://imgur.com/mhZOPY7.png')!important;
+transform: scaleX(-1);
+width: 258px;
+height: 75px;}
+
+.mound-grid {
+background: #cfb99b;
+color: #554129;}
+a:hover > .mound-grid {
+color: #666332}
+a:active > .mound-grid {
+color: #5e5a2d}
+
+/*beetle mounds*/
+a[href$="mound.php?id=20440"] img {
+content:url('https://imgur.com/Ilb4PCp.png') !important;
+min-width: 160px;
+max-height: 80px;
+margin: -5px -5px 2px;
+overflow: hidden !important;}
+a[href$="mound.php?id=266208"] img {
+content:url('https://imgur.com/Ilb4PCp.png') !important;
+transform: scaleX(-1);
+min-width: 160px;
+max-height: 80px;
+margin: -5px -5px 2px;
+overflow: hidden !important;}
+a[href$="mound.php?id=266209"] img {
+content:url('https://imgur.com/Ilb4PCp.png') !important;
+min-width: 160px;
+max-height: 80px;
+margin: -5px -5px 2px;
+overflow: hidden !important;}
+a[href$="mound.php?id=266210"] img {
+content:url('https://imgur.com/Ilb4PCp.png') !important;
+transform: scaleX(-1);
+max-width: 260px;
+max-height: 80px;
+margin: -5px -5px 2px;
+overflow: hidden !important;}
+
+/*reclaim tab*/
+#reclaim th {
+background: #C1AA63;
+color: #645831}
+#reclaim .left {
+background: #EDD6B5;
+color: #584c3b}
+#reclaim .right, #reclaim .bottom {
+background: #ecd7b9;}
+.right.center input {
+background: #dbc19b;
+color: #645039;
+border: none}
+.right.center input:hover {
+color: #827344;
+text-shadow: none}
+
+/*sparring tab*/
+#sparring th {
+background: #918F44;
+color: #4b4a22}
+#sparring td {
+background: #EDD6B5;
+color: #51432e}
+.right_odd input {
+background: #dbc19b;
+color: #645039;
+border-color: #dbc19b}
+.right_odd input:hover {
+background: #dbc19b;
+color: #605227;
+text-shadow: none}
+
+/*dynasty etc*/
+.dynastylist .left {
+background: #C4A88A;}
+.left h3 {
+color: #53482c}
+a:hover > .left h3 {
+color: #75713B}
+
+a[href$="dynasty.php?mid=113177"] img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/AbijattaShallaNationalPark.png');
+max-height: 50px;
+min-width: 240px}
+a[href$="former_pride.php?mid=113177"] img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/AbijattaShallaNationalPark.png');
+max-height: 50px;
+min-width: 240px}
+a[href$="achievements.php?id=113177"] img {
+content: url('https://static.lioden.com/images/dynamic/backgrounds/AbijattaShallaNationalPark.png');
+max-height: 50px;
+min-width: 240px}
+
+/*view logs*/
+.col-sm-4 .left {
+background: #DBC19B;
+color: #645039}
+a div.left:hover {
+color: #423520}
+
+/*edit your details*/
+.table > tbody > tr > th {
+background: #86a9c0}
+.table > tbody > tr > th > a {
+color: #446377 !important}
+.table > tbody > tr > th > a:hover {
+color: #354e5e !important}
+#editdetailspanel .b, #editdetailspanel {
+background: #CFB99B;
+color: #645039}
+#editdetailspanel a {
+color: #645039}
+#editdetailspanel a:hover {
+color: #423520}
+#editdetailspanel .bottom {
+background: #7a9eb5}
+.bottom input {
+background: #98bdd5;
+color: #446377;
+border-color: #98bdd5}
+.bottom input:hover {
+background: #90b8d1;
+color: #324b5c;
+text-shadow: none;
+border-color: #90b8d1}
+
+/*account settings*/
+form div.left {
+background: #C4A88A;}
+div .left a {
+color: #5e4d3a}
+div .left a:hover {
+color: #7D713B}
+
+/*patrolling/rollover/newspost notif*/
+.alert-success {
+background: #d5c587;
+color: #60583a}
+.alert-success a {
+color: #60583a}
+.alert-success a:hover {
+color: #423c25}
+/*new message, starvation notif*/
+.alert-danger {
+background: #d5ae72;
+color: #644e2c}
+.alert-danger a {
+color: #644e2c}
+.alert-danger a:hover {
+color: #4b3a20}
