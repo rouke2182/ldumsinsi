@@ -138,6 +138,10 @@ color: #52511d}
 #about .top.center a:hover {
 color: #47461a}
 
+/*table border*/
+#about {
+border-color: #D8C4AB}
+
 /*table background*/
 #about .right > .right, #about .right > td {
 background: #dbc7af}
@@ -172,6 +176,8 @@ color: #3b5566 }
 #player .right > .right {
 background: #EDD6B5;
 color: #57743a}
+#player {
+border-color: #C4A88A}
 /*dividing line*/
 hr {
 border: none}
@@ -271,6 +277,8 @@ background: #EDD6B5;
 color: #584c3b}
 #reclaim .right, #reclaim .bottom {
 background: #ecd7b9;}
+#reclaim {
+border-color: #CFB99B}
 
 
 /*sparring tab*/
@@ -280,6 +288,8 @@ color: #4b4a22}
 #sparring td {
 background: #EDD6B5;
 color: #51432e}
+#sparring {
+border-color: #CFB99B}
 
 
 /*dynasty etc*/
@@ -339,6 +349,10 @@ background: #90b8d1;
 color: #324b5c;
 text-shadow: none;
 border-color: #90b8d1}
+form > .table {
+border-color: #6f9ab5}
+form th a {
+border-color: #EFE0C1 !important}
 
 /*account settings*/
 form div.left {
@@ -346,7 +360,7 @@ background: #C4A88A;}
 div .left a {
 color: #5e4d3a}
 div .left a:hover {
-color: #7D713B}
+color: #493928}
 
 /*patrolling/rollover/newspost notif*/
 .alert-success {
