@@ -151,13 +151,13 @@ color: #575E2C;
 text-shadow: none}
 /*small images*/
 .xlarge img {
-content: url('https://imgur.com/k8y1yeG.png');
-max-width: 28px;
-height: auto}
+content: url('https://imgur.com/k8y1yeG.png') !important;
+max-width: 28px !important;
+height: auto !important}
 .h3 img {
-content: url('https://imgur.com/fxg4MG9.png');
-max-height: 90px;
-max-width: 90px}
+content: url('https://imgur.com/fxg4MG9.png') !important;
+max-height: 90px !important;
+max-width: 90px !important}
 
 /*caves*/
 .cave-grid {
