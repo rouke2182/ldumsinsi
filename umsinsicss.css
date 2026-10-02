@@ -127,7 +127,8 @@ color: #403f18 !important}
 #fraProfileContent td {
 background: #E7DDC5;}
 #fraProfileContent .table {
-border-color: #B5AC56}
+border-color: #B5AC56;
+overflow-wrap: break-word}
 
 /*table top*/
 .top.center {
