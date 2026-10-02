@@ -300,7 +300,7 @@ color: #53482c}
 a:hover > .left h3 {
 color: #75713B}
 
-a[href$="dynasty.php?mid=113177"] img {
+/*a[href$="dynasty.php?mid=113177"] img {
 content: url('https://imgur.com/RpSOhlC.png');
 min-width: 240px;
 max-height: 50px;}
@@ -315,7 +315,7 @@ min-width: 240px}
 .left img {
 min-height: 60px !important;
 max-width: 260px !important;
-margin: -6px 0px 2px !important}
+margin: -6px 0px 2px !important}*/
 
 /*view logs*/
 .col-sm-4 .left {
@@ -328,9 +328,9 @@ color: #423520}
 .table > tbody > tr > th {
 background: #86a9c0}
 .table > tbody > tr > th > a {
-color: #446377 !important}
+color: #475a7e !important}
 .table > tbody > tr > th > a:hover {
-color: #354e5e !important}
+color: #404d6f !important}
 #editdetailspanel .b, #editdetailspanel {
 background: #CFB99B;
 color: #645039}
