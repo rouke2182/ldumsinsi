@@ -400,7 +400,7 @@ overflow-y: hidden !important}
 height: 220px;
 transition: 0.5s}
 overflow-y: scroll !important;}
-#commentBox:before {
+#commentBox::before {
 content: ' ';
 background: #D4BFA5;
 text-align: left;
