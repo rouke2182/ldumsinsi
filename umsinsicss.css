@@ -391,18 +391,20 @@ background: #d4bfa5;
 color: #554642;
 border: 1px #DCCBB7;
 height: 30px;
-transition: 0.5s}
+transition: 0.5s;
+overflow-y: hidden !important;}
 div #commentBox {
 border-radius: 3px}
 #commentBox:hover {
-height: 220px}
+height: 220px;
+overflow-y: scroll !important;}
 #commentBox:before {
 content: ' ';
 background: #D4BFA5;
 text-align: left;
 color: #554642;
 font-size: 16px;
-display: inline-block;
+display: block;
 width: 100%;
 height: 30px;
 padding-top: 3px;
@@ -426,8 +428,3 @@ border-color: #c08d53}
 div #commentBox .bad:hover {
 background: #F0CB90;
 color: #6D3A35}
-
-::-webkit-scrollbar { 
-display: none}
-
-
