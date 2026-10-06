@@ -47,6 +47,10 @@ background: rgba(230,214,194,0.9)}
 .panel-default, .panel-body {
 color: #6b5842 !important}
 
+#commentBox {
+    transition: 0.5 !important
+}
+
 /*inner boxes of sidebar*/
 .col-md-3 .panel {
 background: #c4a88a;
@@ -179,6 +183,8 @@ background: #EDD6B5;
 color: #57743a}
 #player {
 border-color: #C4A88A}
+#player .left {
+background: #dbc19c}
 /*dividing line*/
 hr {
 border: none}
@@ -380,5 +386,50 @@ color: #644e2c}
 .alert-danger a:hover {
 color: #4b3a20}
 
+#commentBox {
+background: #d4bfa5;
+color: #554642;
+border: 1px #DCCBB7;
+height: 30px;
+transition: 0.5s}
+div #commentBox {
+border-radius: 3px}
+#commentBox:hover {
+height: 220px}
+#commentBox:before {
+content: ' ';
+text-align: left;
+color: #554642;
+font-size: 16px;
+display: inline-block;
+width: 100%;
+height: 25px;
+padding-top: 3px;
+padding-left: 10px;
+border-radius: 0px}
+div.comment:nth-child(even) {
+background: #E7DDC5 !important}
+div.comment:nth-child(odd) {
+background: #e1d5bb !important}
+#comment {
+background: #E7DDC5;
+color: #554642;
+border-style: none;
+border-radius: 5px}
+div #commentBox .bad {
+background: #E0B686;
+color: #713f2b;
+text-decoration: none;
+text-shadow: none;
+border-color: #c08d53}
+div #commentBox .bad:hover {
+background: #F0CB90;
+color: #6D3A35}
+
+::-webkit-scrollbar { 
+display: none}
+
 <table class="table"><tr><th><a href="linkhere">Main</a> : Side </th></tr>
 <tr><td>test test</td></tr></table>
+
+
