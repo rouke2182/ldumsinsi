@@ -390,23 +390,24 @@ color: #4b3a20}
 background: #d4bfa5;
 color: #554642;
 border: 1px #DCCBB7;
-height: 30px;
-transition: 0.5s !important;
-overflow-y: hidden !important;}
+height: 30px}
 div #commentBox {
-border-radius: 3px}
+border-radius: 3px;
+transition: 0.5s;
+overflow-y: hidden !important}
 #commentBox:hover {
-height: 220px !important;
+height: 220px;
+transition: 0.5s}
 overflow-y: scroll !important;}
 #commentBox:before {
-content: ' ' !important;
+content: ' ';
 background: #D4BFA5;
 text-align: left;
 color: #554642;
 font-size: 16px;
-display: block !important;
-width: 100% !important;
-height: 30px !important;
+display: block;
+width: 100%;
+height: 30px;
 padding-top: 3px;
 padding-left: 10px;
 border-radius: 0px}
